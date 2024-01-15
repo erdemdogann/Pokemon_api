@@ -1,11 +1,11 @@
-package com.example.pokemon_api.Interface
+package com.example.pokemon_api.`interface`
 
-import com.example.pokemon_api.BaseModels.PokeModel
+import com.example.pokemon_api.baseModels.PokeModel
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface pokemonapi {
+interface PokemonApi {
 
     @GET("pokemon")
     fun getdata(

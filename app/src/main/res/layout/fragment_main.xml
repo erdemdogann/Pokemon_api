@@ -9,10 +9,7 @@
     <androidx.recyclerview.widget.RecyclerView
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:id="@+id/recyclerView"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:background="@drawable/img"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img" />
 </androidx.constraintlayout.widget.ConstraintLayout>

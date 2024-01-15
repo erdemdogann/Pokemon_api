@@ -1,6 +1,0 @@
-package com.example.pokemon_api.Model
-
-data class OfficialArtwork(
-    val front_default: String?,
-    val front_shiny: String?
-)

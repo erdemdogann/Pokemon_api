@@ -1,8 +1,6 @@
-package com.example.pokemon_api.BaseModels
+package com.example.pokemon_api.baseModels
 
-data class Pokemonmodel(
-
+data class PokemonModel(
     val name: String?,
-
     val url: String?
 )

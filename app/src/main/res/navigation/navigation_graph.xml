@@ -16,9 +16,9 @@
     </fragment>
     <fragment
         android:id="@+id/deatilPage"
-        android:name="com.example.pokemon_api.DeatilPage"
+        android:name="com.example.pokemon_api.DetailPageFragment"
         android:label="fragment_deatil_page"
-        tools:layout="@layout/fragment_deatil_page" >
+        tools:layout="@layout/fragment_detail_page" >
         <argument
             android:name="pokename"
             app:argType="string" />
